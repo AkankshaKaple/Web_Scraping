@@ -1,15 +1,8 @@
-import matplotlib as plt
-import flask
-import requests
-import pandas as pd
-import numpy as np
-
-
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
 
-input_name = input('Enter the name of company :')
+input_name = "Niyo Solutions"
 company_name = input_name + ' LinkedIn'
 chromedriver = '/usr/bin/chromedriver'
 browser = webdriver.Chrome(chromedriver)
