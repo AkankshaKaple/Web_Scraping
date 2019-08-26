@@ -13,5 +13,4 @@ sudo chmod +x /usr/bin/chromedriver
 wget https://selenium-release.storage.googleapis.com/3.13/selenium-server-standalone-3.13.0.jar
 wget http://www.java2s.com/Code/JarDownload/testng/testng-6.8.7.jar.zip
 unzip testng-6.8.7.jar.zip
-
-
+unzip selenium-server-standalone-3.13.0.jar
